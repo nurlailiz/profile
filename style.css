@@ -1,0 +1,92 @@
+header {
+    background-color: #8B0000;
+    height: 150px;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 2%;
+    color: white;
+}
+
+#img-container {
+    margin: auto;
+    width: 70%;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+    border-radius: 20px;
+}
+
+#personal-info {
+    margin: auto;
+    width: fit-content;
+    border: 2px solid;
+    padding: 10px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.flex-container {
+    padding: 5px;
+    margin: auto;
+    align-items: center;
+    border: 1px solid;
+    list-style: none;
+    display: flex;
+}
+
+.information {
+    background: #F0E68C;
+    border-radius: 25px;
+    padding: 5px;
+    width: 400px;
+    height: 50px;
+    margin: 5px;
+    
+    line-height: 40px;
+    color: black;
+    font-weight: initial;
+    font-style: italic;
+    font-size: 1.5em;
+    text-align: center;
+  }
+
+.link {
+    height: 200px;
+    width: 200px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 15px;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 185px;
+    font-size: 150px;
+}
+
+.linkedin {
+    font-size: 120px;
+}
+
+.icon-red {
+    color: #B22222;
+}
+
+.icon-red:hover {
+    color: #8B0000;
+}
+
+#tableint {
+    font-size: 2em;
+    width: 60%;
+    text-align: center;
+    border: 3px solid black;
+}
+
+#td:hover {
+    background-color: #FFB6C1;
+}
